@@ -1,0 +1,17 @@
+{
+    "name": "yixinl/phpinsight-php-cs-fixer-github-action-test",
+    "require-dev": {
+        "nunomaduro/phpinsights": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yixinl\\PhpinsightPhpCsFixerGithubActionTest\\": "src/"
+        }
+    },
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
