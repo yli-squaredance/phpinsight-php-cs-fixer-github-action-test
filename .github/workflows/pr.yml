@@ -18,10 +18,10 @@ jobs:
             - name: Install Dependencies
               run: composer install --ignore-platform-reqs --prefer-dist --no-progress
 
-            # - name: Fix Style
-            #   run: vendor/bin/phpinsights fix
+            - name: Fix Style
+              run: vendor/bin/phpinsights fix
 
-            # - name: Commit Changes
-            #   uses: stefanzweifel/git-auto-commit-action@v4
-            #   with:
-            #       commit_message: Fix styling changes
+            - name: Commit Changes
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: Fix styling changes
